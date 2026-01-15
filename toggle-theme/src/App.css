@@ -1,0 +1,44 @@
+.app {
+  min-height: 100vh;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+.theme-toggle {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.875rem;
+  border: 1px solid var(--border-color);
+  background: none;
+  color: var(--text-color);
+  cursor: pointer;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.content p {
+  padding-left: 150px;
+  padding-top: 250px;
+  line-height: 1.5;
+  font-size: 50px;
+}
+
+.current {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
